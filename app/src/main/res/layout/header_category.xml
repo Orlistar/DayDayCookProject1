@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_sort"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:drawableTop="@drawable/home_ksrk_icon_sort"
+        android:gravity="center"
+        android:text="食谱分类"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/btn_video"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:drawableTop="@drawable/home_ksrk_icon_video"
+        android:gravity="center"
+        android:text="视频专区"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/btn_course"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:drawableTop="@drawable/home_ksrk_icon_course"
+        android:gravity="center"
+        android:text="厨艺挑战"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/btn_check_in"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:drawableTop="@drawable/home_ksrk_icon_check_in"
+        android:gravity="center"
+        android:text="签到奖励"
+        android:textColor="#000" />
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    tools:context="com.orlistar.daydaycookproject.activity.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/my_status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@drawable/status_bar_bg"
+        android:orientation="horizontal" />
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/btnGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/iv_selected"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="clickNewFragment"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/home_btn_selected_sel" />
+
+
+        <ImageView
+            android:id="@+id/iv_recipe"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="clickNewFragment"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/home_btn_recipe_sel" />
+
+        <ImageView
+            android:id="@+id/iv_shop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="clickNewFragment"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/home_btn_shop_sel" />
+
+        <ImageView
+            android:id="@+id/iv_find"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="clickNewFragment"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/home_btn_find_sel" />
+
+
+        <ImageView
+            android:id="@+id/iv_my"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="clickNewFragment"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/home_btn_my_sel" />
+    </LinearLayout>
+</LinearLayout>

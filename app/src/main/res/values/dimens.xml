@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--myFragment卡片的高度-->
+    <dimen name="fragment_my_card_height">65dp</dimen>
+    <!--myFragment卡片的topMargin-->
+    <dimen name="fragment_my_card_2_top_margin">55dp</dimen>
+    <dimen name="fragment_my_card_3_top_margin">110dp</dimen>
+    <dimen name="fragment_my_card_4_top_margin">165dp</dimen>
+    <dimen name="fragment_my_card_5_top_margin">220dp</dimen>
+    <dimen name="fragment_my_card_6_top_margin">275dp</dimen>
+    <dimen name="fragment_my_card_7_top_margin">330dp</dimen>
+</resources>
